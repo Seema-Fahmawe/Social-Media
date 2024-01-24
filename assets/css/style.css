@@ -1,0 +1,148 @@
+/* Montserrat,sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Fredoka */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bs-primary-rgb: 0, 85, 255;
+    --bs-success-rgb: 16, 216, 118;
+    --primary: #0055ff;
+    --primary-gradient:linear-gradient(135deg, #05f, #09f) ;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.bg-grey {
+    background-color: #eee;
+}
+
+.text-grey {
+    color: #888;
+}
+
+.w350 {
+    width: 350px;
+}
+
+.w50 {
+    width: 50px;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.w35 {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.w75 {
+    width: 75px;
+}
+
+.w30 {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.w20 {
+    width: 20px;
+}
+
+.w45 {
+    width: 45px;
+    height: 45px;
+    line-height: 47px;
+}
+
+.w25 {
+    width: 25px;
+    height: 25px;
+    line-height: 25px !important;
+}
+
+.w300 {
+    width: 300px;
+}
+
+.h50 {
+    height: 50px;
+}
+
+.bg-greylight {
+    background-color: #f5f5f5;
+}
+
+
+.shadow-xss {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, .09) !important;
+}
+
+.bg-blue-gradient {
+    background: linear-gradient(to right, #0575e6, #021b79) !important;
+}
+
+.bg-red-gradiant {
+    background: linear-gradient(to right, #e44d26, #f16529) !important;
+}
+
+.bg-gold-gradiant {
+    background: linear-gradient(to right, #f2994a, #f2c94c) !important;
+}
+
+.bg-mini-gradiant {
+    background: linear-gradient(to right, #ee0979, #ff6a00) !important;
+}
+
+.bg-primary-gradiant {
+    background: var(--primary-gradient)!important;
+}
+
+.bg-warning {
+    background-color: #fe9431 !important;
+}
+
+.text-warning {
+    color: #fe9431 !important;
+}
+
+.fontSizeAndWeight {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+.bg-danger {
+    background-color: #e50202 !important;
+}
+
+.text-grey-light {
+    color: #adb5bd;
+}
+
+.mainContent .leftSide a:hover {
+    color: rgb(13, 110, 253) !important;
+}

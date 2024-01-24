@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- navbar.css -->
+    <link rel="stylesheet" href="assets/css/navbar.css">
+
+    <!-- home.css -->
+    <link rel="stylesheet" href="assets/css/home.css">
+
+    <!-- login.css -->
+    <link rel="stylesheet" href="assets/css/login.css">
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbarLogin navbar-expand-lg py-3 bg-transparent  fixed-top ">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-2 sociala" href="#"><i class="fa-solid fa-bolt text-success"></i>
+                <span class="text-primary">Sociala. </span></a>
+
+            <div class=" navbar-collapse " id="navbarSupportedContent">
+                <div class="secondList ms-auto d-lg-block d-none">
+                    <ul class="navbar-nav mb-0 d-flex flex-row ">
+                        <li class="nav-item me-2">
+                            <a href="#"
+                                class="d-inline-block bg-dark rounded-pill p-3 px-4 text-center text-white formBtn">Login</a>
+                        </li>
+                        <li class="nav-item me-2 ">
+                            <a href="#"
+                                class="d-inline-block bg-primary rounded-pill p-3  text-center text-white formBtn">Register</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="thirdList d-lg-none ms-auto ">
+                    <ul class=" ms-auto mb-0 mb-lg-0 d-flex list-unstyled">
+                        <li class="nav-item me-2">
+                            <a class="nav-link w45 bg-greylight d-inline-block rounded-pill text-center " href="#"><i
+                                    class="fa-regular fa-comment fs-5 text-grey"></i></a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link w45 bg-greylight d-inline-block rounded-pill text-center " href="#"><i
+                                    class="fa-solid fa-video fs-5 "></i></a>
+                        </li>
+                        <li class="nav-item me-2 ">
+                            <a class="nav-link w45 bg-greylight d-inline-block  rounded-pill text-center  " href="#"><i
+                                    class="fa-solid fa-magnifying-glass fs-5"></i></a>
+                        </li>
+                        <li class="nav-item  ms-3 ">
+                            <button class="btn offcanva-btn  position-relative border-0" type="button"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                                aria-controls="offcanvasExample">
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="loginBody">
+        <div class="row me-0">
+            <div class="col-5 d-xl-block d-none">
+                <div class="imgLogin">
+                    <img src="assets/images/login-bg-2.jpg" class="w-100" style="height: 100vh;">
+                </div>
+            </div>
+            <div class="col-xl-7 col-12 d-flex align-items-center" style="height: 100vh;">
+                <div class="formLogin me-auto ms-auto w350 ">
+                    <h2 class="titleLogin mb-3">Create <br />your account</h2>
+                    <form>
+                        <div class="d-flex align-items-center position-relative  mb-3">
+                            <i class="fa-regular fa-user text-grey-light fs-5 inputs"></i>
+                            <input class="form-control me-2  rounded-3 border-2 ps-5 bg-white  py-3 "
+                                placeholder="Your Name">
+                        </div>
+                        <div class="d-flex align-items-center position-relative  mb-3 ">
+                            <i class="fa-regular fa-envelope inputs text-grey-light fs-5"></i>
+                            <input class="form-control me-2  rounded-3 border-2 ps-5 bg-white  py-3 "
+                                placeholder="Your Email Address">
+                        </div>
+                        <div class="d-flex align-items-center position-relative mb-3 ">
+                            <i class="fa-solid fa-lock inputs text-grey-light fs-5"></i>
+                            <input class="form-control me-2  rounded-3 border-2 ps-5 bg-white  py-3 "
+                                placeholder="Password">
+                        </div>
+                        <div class="d-flex align-items-center position-relative  mb-3 ">
+                            <i class="fa-solid fa-lock inputs text-grey-light fs-5"></i>
+                            <input class="form-control me-2  rounded-3 border-2 ps-5 bg-white  py-3 "
+                                placeholder="Confirm Password">
+                        </div>
+                        <div class="mb-3 form-check d-flex">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label text-grey-light textRemember ms-2" for="exampleCheck1">Accept
+                                Term and Conditions</label>
+                        </div>
+                    </form>
+                    <div class="formBtn bg-dark m-auto py-3 text-center rounded-3">
+                        <a href="#" class="text-white ">Register</a>
+                    </div>
+                    <h6 class="text-grey-light dontAccount mt-3 mb-4">Already have accoun<a href="#"
+                            class="text-primary ms-2">Login</a></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

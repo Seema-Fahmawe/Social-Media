@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+    <!-- lightbox -->
+    <link rel="stylesheet" href="assets/css/lightbox.min.css">
+
+    <!-- navbar.css -->
+    <link rel="stylesheet" href="assets/css/navbar.css">
+
+    <!-- home.css -->
+    <link rel="stylesheet" href="assets/css/home.css">
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="bg-tertiary">
+    <!-- start navbar -->
+    <nav class="navbar navbarIndex navbar-expand-lg py-lg-3  py-1 fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-2 sociala" href="#"><i class="fa-solid fa-bolt text-success"></i>
+                <span class="text-primary">Sociala. </span></a>
+
+            <div class=" navbar-collapse d-flex align-items-center  " id="navbarSupportedContent">
+                <form class="d-lg-flex align-items-center position-relative ms-auto d-none me-2" role="search">
+                    <i class="fa-solid fa-magnifying-glass searchIcon "></i>
+                    <input class=" me-2 shadow-none rounded-pill border-0  ps-5 bg-grey searchInput pb-2 pe-3 pt-2 w350"
+                        type="search" placeholder="Start typing to search.." aria-label="Search">
+                </form>
+
+                <div class="firstList ">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 centerIcon">
+                        <li class="nav-item me-3">
+                            <a class="nav-link active w50 h50 d-inline-block rounded-pill text-center py-1 navbarIcon"
+                                href="#"><i class="fa-solid fa-house text-primary fs-4 "></i></a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link w50 h50 bg-greylight d-inline-block rounded-pill text-center navbarIcon py-1"
+                                href="#"><i class="fa-solid fa-bolt fs-4 text-grey "></i></a>
+                        </li>
+                        <li class="nav-item me-3 ">
+                            <a class="nav-link w50 h50 bg-greylight d-inline-block rounded-pill text-center navbarIcon py-1 "
+                                href="#"><i class="fa-solid fa-video fs-4 text-grey"></i></a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link w50 h50 bg-greylight d-inline-block rounded-pill text-center navbarIcon py-1"
+                                href="#"><i class="fa-regular fa-user fs-4 text-grey"></i></a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link w50 h50 bg-greylight d-inline-block rounded-pill text-center navbarIcon py-1 "
+                                href="#"><i class="fa-solid fa-bag-shopping fs-4 text-grey"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="secondList ms-auto d-none d-lg-block">
+                    <ul class="navbar-nav mb-2 mb-lg-0  d-flex ">
+                        <li class="nav-item me-2">
+                            <a class="nav-link active w50 h50 d-inline-block rounded-pill text-center py-1 navbarIcon position-relative"
+                                href="#"><i class="fa-regular fa-bell fs-4 text-primary"></i>
+                                <span class="note bg-warning">.</span></a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link w50 h50 d-inline-block rounded-pill text-center navbarIcon py-1 "
+                                href="#"><i class="fa-regular fa-message messageBtn fs-4 text-primary"></i></a>
+                        </li>
+                        <li class="nav-item me-2 ">
+                            <a class="nav-link w50 h50  d-inline-block rounded-pill text-center navbarIcon py-1 "
+                                href="#"><i class="fa-solid fa-gear fs-4 text-primary setting"></i></a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link w50 h50 bg-grey d-inline-block rounded-pill text-center navbarIcon py-1"
+                                href="#"><i class="fa-regular fa-user fs-4 text-primary "></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="thirdList d-lg-none ms-auto ">
+                    <ul class=" ms-auto mb-0 mb-lg-0 d-flex list-unstyled">
+                        <li class="nav-item me-2">
+                            <a class="nav-link w45 bg-greylight d-inline-block rounded-pill text-center " href="#"><i
+                                    class="fa-regular fa-comment fs-5 text-grey"></i></a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link w45 bg-greylight d-inline-block rounded-pill text-center " href="#"><i
+                                    class="fa-solid fa-video fs-5 "></i></a>
+                        </li>
+                        <li class="nav-item me-2 ">
+                            <a class="nav-link w45 bg-greylight d-inline-block  rounded-pill text-center  " href="#"><i
+                                    class="fa-solid fa-magnifying-glass fs-5"></i></a>
+                        </li>
+                        <li class="nav-item  ms-3 ">
+                            <button class="btn offcanva-btn  position-relative border-0" type="button"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                                aria-controls="offcanvasExample">
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- offcanva -->
+    <div class="offcanvas offcanvas-start offcanva" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-body">
+            <div class="firstList bg-white p-2 rounded-4 my-1">
+                <div class="titleList">
+                    <span class="text-grey fontSizeAndWeight">New Feeds</span>
+                </div>
+                <div class="list">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                        <li class="nav-item  ">
+                            <a class="nav-link d-flex gap-4 align-items-center " href="#"><i
+                                    class="fa-solid fa-tv bg-blue-gradient rounded-pill text-center w45 fs-4 text-white bgBlue"></i>
+                                <span class="titleIcon text-grey ">Newsfeed</span></a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a class="nav-link d-flex gap-4 align-items-center py-1 " href="#"><i
+                                    class="fa-solid fa-award  bg-red-gradiant rounded-pill text-center w45 fs-4 text-white bgBlue"></i>
+                                <span class="titleIcon text-grey ">Badges</span></a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a class="nav-link d-flex gap-4 align-items-center  py-1" href="#"><i
+                                    class="fa-solid fa-globe  bg-gold-gradiant rounded-pill text-center w45 fs-4 text-white bgBlue"></i>
+                                <span class="titleIcon text-grey ">Explore Stories</span></a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a class="nav-link d-flex gap-4 align-items-center py-1  " href="#"><i
+                                    class="fa-solid fa-bolt  bg-mini-gradiant rounded-pill text-center w45 fs-4 text-white bgBlue"></i>
+                                <span class="titleIcon text-grey ">Popular Groups</span></a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a class="nav-link d-flex gap-4 align-items-center py-1 " href="#"><i
+                                    class="fa-regular fa-user  bg-primary-gradiant rounded-pill text-center w45 fs-4 text-white bgBlue"></i>
+                                <span class="titleIcon text-grey ">Author Profile </span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="secondList bg-white p-2 rounded-4 my-1">
+                <div class="titleList">
+                    <span class="text-grey fontSizeAndWeight">More Pages</span>
+                </div>
+                <div class="list">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                        <li class="nav-item my-2">
+                            <a class="nav-link d-flex gap-4 align-items-center " href="#"><i
+                                    class="fa-solid fa-inbox fs-4 text-primary"></i>
+                                <span class="titleIcon text-grey ">Email Box</span>
+                                <span class="emailNum bg-warning ms-auto text-white p-1 rounded-2">584</span></a>
+
+                        </li>
+                        <li class="nav-item my-2">
+                            <a class="nav-link d-flex gap-4 align-items-center " href="#"><i
+                                    class="fa-solid fa-house fs-4 text-primary"></i>
+                                <span class="titleIcon text-grey ">Near Hotel</span></a>
+
+                        </li>
+                        <li class="nav-item my-2">
+                            <a class="nav-link d-flex gap-4 align-items-center " href="#"><i
+                                    class="fa-solid fa-location-dot fs-4 text-primary"></i>
+                                <span class="titleIcon text-grey ">Latest Event</span></a>
+
+                        </li>
+                        <li class="nav-item my-2">
+                            <a class="nav-link d-flex gap-4 align-items-center " href="#"><i
+                                    class="fa-brands fa-youtube fs-4 text-primary"></i>
+                                <span class="titleIcon text-grey ">Live Stream</span></a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="thirdList bg-white p-2 rounded-4">
+                <div class="titleList">
+                    <span class="text-grey fontSizeAndWeight">Account</span>
+                </div>
+                <div class="list">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                        <li class="nav-item my-2">
+                            <a class="nav-link d-flex gap-4 align-items-center " href="#"><i
+                                    class="fa-solid fa-gear fs-4 text-grey"></i>
+                                <span class="titleIcon text-grey ">Settings</span></a>
+                        </li>
+                        <li class="nav-item my-2">
+                            <a class="nav-link d-flex gap-4 align-items-center " href="#"><i
+                                    class="fa-regular fa-clock fs-4 text-grey"></i>
+                                <span class="titleIcon text-grey ">Analytics</span></a>
+                        </li>
+                        <li class="nav-item my-2">
+                            <a class="nav-link d-flex gap-4 align-items-center " href="#"><i
+                                    class="fa-regular fa-message fs-4 text-grey"></i>
+                                <span class="titleIcon text-grey ">Chat</span>
+                                <span class="emailNum bg-warning ms-auto text-white p-1 rounded-2">23</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- start home -->
+    <aside class="sidebar position-fixed d-none d-lg-block ">
+        <div class="container-fluid">
+            <div class="offcanva ">
+                <div class="firstList  p-3 rounded-4 my-2 shadow-xss">
+                    <div class="titleList">
+                        <span class="text-grey-light fontSizeAndWeight">New Feeds</span>
+                    </div>
+                    <div class="list">
+                        <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                            <li class="nav-item  ">
+                                <a class="nav-link d-flex gap-4 align-items-center " href="#"><i
+                                        class="fa-solid fa-tv bg-blue-gradient rounded-pill text-center w45 fs-4 text-white bgBlue"></i>
+                                    <span class="titleIcon text-grey ">Newsfeed</span></a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a class="nav-link d-flex gap-4 align-items-center py-1 " href="#"><i
+                                        class="fa-solid fa-award  bg-red-gradiant rounded-pill text-center w45 fs-4 text-white bgBlue"></i>
+                                    <span class="titleIcon text-grey ">Badges</span></a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a class="nav-link d-flex gap-4 align-items-center  py-1" href="#"><i
+                                        class="fa-solid fa-globe  bg-gold-gradiant rounded-pill text-center w45 fs-4 text-white bgBlue"></i>
+                                    <span class="titleIcon text-grey ">Explore Stories</span></a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a class="nav-link d-flex gap-4 align-items-center py-1  " href="#"><i
+                                        class="fa-solid fa-bolt  bg-mini-gradiant rounded-pill text-center w45 fs-4 text-white bgBlue"></i>
+                                    <span class="titleIcon text-grey ">Popular Groups</span></a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a class="nav-link d-flex gap-4 align-items-center py-1 " href="#"><i
+                                        class="fa-regular fa-user  bg-primary-gradiant rounded-pill text-center w45 fs-4 text-white bgBlue"></i>
+                                    <span class="titleIcon text-grey ">Author Profile </span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="secondList  p-3 rounded-4 my-2 shadow-xss">
+                    <div class="titleList">
+                        <span class="text-grey-light fontSizeAndWeight">More Pages</span>
+                    </div>
+                    <div class="list">
+                        <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                            <li class="nav-item my-2">
+                                <a class="nav-link d-flex gap-4 align-items-center " href="#"><i
+                                        class="fa-solid fa-inbox fs-4 text-primary"></i>
+                                    <span class="titleIcon text-grey ">Email Box</span>
+                                    <span class="emailNum bg-warning ms-auto text-white p-1 rounded-2">584</span></a>
+
+                            </li>
+                            <li class="nav-item my-2">
+                                <a class="nav-link d-flex gap-4 align-items-center " href="#"><i
+                                        class="fa-solid fa-house fs-4 text-primary"></i>
+                                    <span class="titleIcon text-grey ">Near Hotel</span></a>
+
+                            </li>
+                            <li class="nav-item my-2">
+                                <a class="nav-link d-flex gap-4 align-items-center " href="#"><i
+                                        class="fa-solid fa-location-dot fs-4 text-primary"></i>
+                                    <span class="titleIcon text-grey ">Latest Event</span></a>
+
+                            </li>
+                            <li class="nav-item my-2">
+                                <a class="nav-link d-flex gap-4 align-items-center " href="#"><i
+                                        class="fa-brands fa-youtube fs-4 text-primary"></i>
+                                    <span class="titleIcon text-grey ">Live Stream</span></a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="thirdList p-3 rounded-4 shadow-xss">
+                    <div class="titleList">
+                        <span class="text-grey-light fontSizeAndWeight">Account</span>
+                    </div>
+                    <div class="list">
+                        <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                            <li class="nav-item my-2">
+                                <a class="nav-link d-flex gap-4 align-items-center " href="#"><i
+                                        class="fa-solid fa-gear fs-4 text-grey"></i>
+                                    <span class="titleIcon text-grey ">Settings</span></a>
+                            </li>
+                            <li class="nav-item my-2">
+                                <a class="nav-link d-flex gap-4 align-items-center " href="#"><i
+                                        class="fa-regular fa-clock fs-4 text-grey"></i>
+                                    <span class="titleIcon text-grey ">Analytics</span></a>
+                            </li>
+                            <li class="nav-item my-2">
+                                <a class="nav-link d-flex gap-4 align-items-center " href="#"><i
+                                        class="fa-regular fa-message fs-4 text-grey"></i>
+                                    <span class="titleIcon text-grey ">Chat</span>
+                                    <span class="emailNum bg-warning ms-auto text-white p-1 rounded-2">23</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <section class="mainContent ">
+        <div class="container-fluid ">
+            <div class="row flex-wrap">
+                <div class="leftSide  col-xl-8 col-lg-7 col-12 my-4 ps-0 ">
+                    <div class="owl-carousel owl-theme stories ">
+                        <div class="item position-relative bg-dark rounded-4 story1 imgStory ">
+                            <div class="card-body position-absolute bottom-0 w-100 ">
+                                <a href="#" class="text-decoration-none text-center d-block"><i
+                                        class="fa-solid fa-plus text-primary bg-white w45 rounded-pill"></i>
+                                    <h4 class="text-white fontSizeAndWeight py-2">Add Story </h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item position-relative ">
+                            <img src="assets/images/s-1.jpg" class="w-100 rounded-4 imgStory" alt="story 1">
+                            <div class="card-body position-absolute bottom-0 w-100">
+                                <a href="#" class="text-decoration-none text-center"> <img
+                                        src="assets/images/user-11.png" alt="imgSmall story"
+                                        class="m-auto imgSmallStory">
+                                    <h4 class="text-white fontSizeAndWeight py-2">Victor Exrixon </h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item position-relative">
+                            <img src="assets/images/s-2.jpg" class="w-100 rounded-4 imgStory" alt="story 2">
+                            <div class="card-body position-absolute bottom-0 w-100">
+                                <a href="#" class="text-decoration-none text-center"> <img
+                                        src="assets/images/user-4.png" alt="imgSmall story"
+                                        class="m-auto imgSmallStory">
+                                    <h4 class="text-white fontSizeAndWeight py-2">Victor Exrixon </h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item position-relative">
+                            <img src="assets/images/s-5.jpg" class="w-100 rounded-4 imgStory" alt="story 3">
+                            <div class="card-body position-absolute bottom-0 w-100">
+                                <a href="#" class="text-decoration-none text-center"> <img
+                                        src="assets/images/user-9.png" alt="imgSmall story"
+                                        class="m-auto imgSmallStory">
+                                    <h4 class="text-white fontSizeAndWeight py-2">Victor Exrixon </h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item position-relative">
+                            <img src="assets/images/s-6.jpg" class="w-100 rounded-4 imgStory " alt="story 4">
+                            <div class="card-body position-absolute bottom-0 w-100">
+                                <a href="#" class="text-decoration-none text-center"> <img
+                                        src="assets/images/user-6.png" alt="imgSmall story"
+                                        class="m-auto imgSmallStory">
+                                    <h4 class="text-white fontSizeAndWeight py-2">Victor Exrixon </h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item position-relative">
+                            <img src="assets/images/s-1.jpg" class="w-100 rounded-4 imgStory" alt="story 5">
+                            <div class="card-body position-absolute bottom-0 w-100">
+                                <a href="#" class="text-decoration-none text-center"> <img
+                                        src="assets/images/user-3.png" alt="imgSmall story"
+                                        class="m-auto imgSmallStory">
+                                    <h4 class="text-white fontSizeAndWeight py-2">Victor Exrixon </h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item position-relative ">
+                            <img src="assets/images/s-1.jpg" class="w-100 rounded-4 imgStory" alt="story 1">
+                            <div class="card-body position-absolute bottom-0 w-100">
+                                <a href="#" class="text-decoration-none text-center"> <img
+                                        src="assets/images/user-11.png" alt="imgSmall story"
+                                        class="m-auto imgSmallStory">
+                                    <h4 class="text-white fontSizeAndWeight py-2">Victor Exrixon </h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item position-relative">
+                            <img src="assets/images/s-2.jpg" class="w-100 rounded-4 imgStory" alt="story 2">
+                            <div class="card-body position-absolute bottom-0 w-100">
+                                <a href="#" class="text-decoration-none text-center"> <img
+                                        src="assets/images/user-4.png" alt="imgSmall story"
+                                        class="m-auto imgSmallStory">
+                                    <h4 class="text-white fontSizeAndWeight py-2">Victor Exrixon </h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item position-relative">
+                            <img src="assets/images/s-5.jpg" class="w-100 rounded-4 imgStory" alt="story 3">
+                            <div class="card-body position-absolute bottom-0 w-100">
+                                <a href="#" class="text-decoration-none text-center"> <img
+                                        src="assets/images/user-9.png" alt="imgSmall story"
+                                        class="m-auto imgSmallStory">
+                                    <h4 class="text-white fontSizeAndWeight py-2">Victor Exrixon </h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item position-relative">
+                            <img src="assets/images/s-6.jpg" class="w-100 rounded-4 imgStory " alt="story 4">
+                            <div class="card-body position-absolute bottom-0 w-100">
+                                <a href="#" class="text-decoration-none text-center"> <img
+                                        src="assets/images/user-6.png" alt="imgSmall story"
+                                        class="m-auto imgSmallStory">
+                                    <h4 class="text-white fontSizeAndWeight py-2">Victor Exrixon </h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item position-relative">
+                            <img src="assets/images/s-1.jpg" class="w-100 rounded-4 imgStory" alt="story 5">
+                            <div class="card-body position-absolute bottom-0 w-100">
+                                <a href="#" class="text-decoration-none text-center"> <img
+                                        src="assets/images/user-3.png" alt="imgSmall story"
+                                        class="m-auto imgSmallStory">
+                                    <h4 class="text-white fontSizeAndWeight py-2">Victor Exrixon </h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="createPost bg-white pt-4 pb-1 px-4 my-4  ms-4  rounded-4 shadow-xss">
+                        <a href="#"><i
+                                class="fa-regular fa-pen-to-square fs-5 rounded-pill w35 bg-greylight text-center"></i>
+                            <span class="text-grey-light fontSizeAndWeight ms-3">Create Post</span></a>
+
+                        <div class="textCreatePost position-relative">
+                            <img src="assets/images/user-8.png" alt="user image"
+                                class="w30 position-absolute imgCreatePost ">
+                            <textarea class="form-control my-4 searchInput rounded-4 ps-5 shadow-none "
+                                placeholder="What's on your mind?" id="floatingTextarea"></textarea>
+                        </div>
+                        <div class="iconsCreatePost d-flex justify-content-between  align-items-center">
+                            <ul class="list-unstyled d-flex gap-lg-3 gap-xl-5 gap-sm-5 gap-4 align-items-center">
+                                <li>
+                                    <a href="#" class="d-flex gap-2 align-items-center"><i
+                                            class="fa-solid fa-video text-danger fs-5"></i><span
+                                            class="fontSizeAndWeight text-grey d-none d-sm-block">Live Video</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex align-items-center gap-2"><i
+                                            class="fa-regular fa-image text-success fs-5"></i><span
+                                            class="fontSizeAndWeight text-grey d-none d-sm-block ">Photo/Video</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex align-items-center gap-2"><i
+                                            class="fa-solid fa-camera text-warning fs-5"></i><span
+                                            class="fontSizeAndWeight text-grey d-none d-sm-block">Feeling/Activity</span></a>
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#"><i
+                                            class="fa-solid fa-ellipsis w45 rounded-pill bg-grey fs-5 text-dark text-center"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="firstPost bg-white pt-4 pb-1 px-4 my-4  ms-4 rounded-4 shadow-xss">
+                        <div class="nameList d-flex align-items-center gap-3">
+                            <img src="assets/images/user-7.png" alt="user image" class="w45">
+                            <h4 class="fontSizeAndWeight text-dark nameUser">Surfiya Zakir<br />
+                                <span class="text-grey-light ">3 hour ago</span>
+                            </h4>
+                            <a href="#" class="ms-auto"><i
+                                    class="fa-solid fa-ellipsis  w45 rounded-pill bg-grey fs-5 text-dark text-center"></i>
+                            </a>
+                        </div>
+
+                        <div class="bodyPost ">
+                            <p class="fontSizeAndWeight text-grey-light pt-3 pb-2 me-lg-5 me-0 ">Lorem ipsum dolor sit
+                                amet,
+                                consectetur adipiscing elit. Morbi
+                                nulla dolor, ornare at commodo non, feugiat non nisi. Phasellus faucibus mollis
+                                pharetra. Proin blandit ac massa sed rhoncus <a href="#" class="ps-2">See more</a></p>
+                            <div class="imagePostLightbox pb-4">
+                                <div class="row ">
+                                    <div class="col-4">
+                                        <a href="assets/images/t-10.jpg" data-lightbox="roadtrip"><img
+                                                src="assets/images/t-10.jpg" alt="image post"
+                                                class="w-100 rounded-2"></a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="assets/images/t-11.jpg" data-lightbox="roadtrip"><img
+                                                src="assets/images/t-11.jpg" alt="image post"
+                                                class="w-100 rounded-2"></a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="assets/images/t-12.jpg" data-lightbox="roadtrip"
+                                            class="position-relative d-inline-block"><img src="assets/images/t-12.jpg"
+                                                alt="image post" class="w-100 rounded-2 img-fluid ">
+                                            <div class="imageOverlay rounded-2">
+                                                +2
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="iconsCreatePost d-flex justify-content-between  align-items-center">
+                            <ul class="list-unstyled d-flex gap-lg-3 gap-xl-5 gap-sm-5 gap-1 align-items-center">
+                                <li>
+                                    <a href="#" class="d-flex gap-1 align-items-center"><i
+                                            class="fa-regular fa-thumbs-up rounded-pill bg-primary-gradiant text-white w25 text-center"></i>
+                                        <i
+                                            class="fa-regular fa-heart rounded-pill bg-red-gradiant text-white w25 text-center"></i>
+                                        <span class="fontSizeAndWeight text-dark">
+                                            2.8K Like</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex align-items-center gap-1"><i
+                                            class="fa-regular fa-comment text-dark fs-5"></i><span
+                                            class="fontSizeAndWeight text-dark ">
+                                            22 Comment</span></a>
+                                </li>
+
+                            </ul>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="d-flex align-items-center gap-2"><i
+                                            class="fa-solid fa-share-nodes text-dark fs-5"></i><span
+                                            class="fontSizeAndWeight text-dark d-none d-md-block ">
+                                            Share</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="SecondPost bg-white pt-4 pb-1 px-4 my-4  ms-4 rounded-4 shadow-xss">
+                        <div class="nameList d-flex align-items-center gap-3">
+                            <img src="assets/images/user-8.png" alt="user image" class="w45">
+                            <h4 class="fontSizeAndWeight text-dark nameUser">Goria Coast<br />
+                                <span class="text-grey-light ">2 hour ago</span>
+                            </h4>
+                            <a href="#" class="ms-auto"><i
+                                    class="fa-solid fa-ellipsis  w45 rounded-pill bg-grey fs-5 text-dark text-center"></i>
+                            </a>
+                        </div>
+
+                        <div class="bodyPost ">
+                            <p class="fontSizeAndWeight text-grey-light py-3 me-lg-5 me-0 ">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Morbi
+                                nulla dolor, ornare at commodo non, feugiat non nisi. Phasellus faucibus mollis
+                                pharetra. Proin blandit ac massa sed rhoncus <a href="#" class="ps-2">See more</a></p>
+                        </div>
+
+                        <div class="iconsCreatePost d-flex justify-content-between  align-items-center">
+                            <ul class="list-unstyled d-flex gap-lg-3 gap-xl-5 gap-sm-5 gap-1 align-items-center">
+                                <li>
+                                    <a href="#" class="d-flex gap-1 align-items-center"><i
+                                            class="fa-regular fa-thumbs-up rounded-pill bg-primary-gradiant text-white w25 text-center"></i>
+                                        <i
+                                            class="fa-regular fa-heart rounded-pill bg-red-gradiant text-white w25 text-center"></i>
+                                        <span class="fontSizeAndWeight text-dark">
+                                            2.8K Like</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex align-items-center gap-1"><i
+                                            class="fa-regular fa-comment text-dark fs-5"></i><span
+                                            class="fontSizeAndWeight text-dark ">
+                                            22 Comment</span></a>
+                                </li>
+
+                            </ul>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="d-flex align-items-center gap-2"><i
+                                            class="fa-solid fa-share-nodes text-dark fs-5"></i><span
+                                            class="fontSizeAndWeight text-dark d-none d-md-block ">
+                                            Share</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="live ms-4">
+                        <div class="owl-carousel owl-theme liveCarousel  shadow-xss  rounded-4 ">
+                            <div class="item ">
+                                <div class="card bg-white border-0 shadow-xss  pb-4">
+                                    <div class="card-body imgCard "
+                                        style="background-image: url('./assets/images/u-bg.jpg');"></div>
+                                    <div class="card-body descCard ">
+                                        <div class="desc text-center">
+                                            <img src="assets/images/user-11.png" alt="small image card"
+                                                class="smallImgCard  bg-white p-1 rounded-circle">
+                                            <h4 class="card-title mb-2 mt-1">Aliqa Macale </h4>
+                                            <p class="card-text text-grey-light fontSizeAndWeight">support@gmail.com</p>
+                                            <span class="rounded-3 bg-danger p-2 text-white mt-2 livebtn">LIVE</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item ">
+                                <div class="card bg-white border-0 shadow-xss pb-4">
+                                    <div class="card-body imgCard "
+                                        style="background-image: url('./assets/images/s-2.jpg');"></div>
+                                    <div class="card-body descCard ">
+                                        <div class="desc text-center">
+                                            <img src="assets/images/user-2.png" alt="small image card"
+                                                class="smallImgCard  bg-white p-1 rounded-circle">
+                                            <h4 class="card-title mb-2 mt-1">Aliqa Macale </h4>
+                                            <p class="card-text text-grey-light fontSizeAndWeight">support@gmail.com</p>
+                                            <span class="rounded-3 bg-danger p-2 text-white mt-2 livebtn">LIVE</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item ">
+                                <div class="card bg-white border-0 shadow-xss pb-4">
+                                    <div class="card-body imgCard "
+                                        style="background-image: url('./assets/images/s-6.jpg');"></div>
+                                    <div class="card-body descCard ">
+                                        <div class="desc text-center">
+                                            <img src="assets/images/user-3.png" alt="small image card"
+                                                class="smallImgCard  bg-white p-1 rounded-circle">
+                                            <h4 class="card-title mb-2 mt-1">Aliqa Macale </h4>
+                                            <p class="card-text text-grey-light fontSizeAndWeight">support@gmail.com</p>
+                                            <span class="rounded-3 bg-danger p-2 text-white mt-2 livebtn">LIVE</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item ">
+                                <div class="card bg-white border-0 shadow-xss pb-4">
+                                    <div class="card-body imgCard "
+                                        style="background-image: url('./assets/images/e-4.jpg');"></div>
+                                    <div class="card-body descCard ">
+                                        <div class="desc text-center">
+                                            <img src="assets/images/user-4.png" alt="small image card"
+                                                class="smallImgCard  bg-white p-1 rounded-circle">
+                                            <h4 class="card-title mb-2 mt-1">Aliqa Macale </h4>
+                                            <p class="card-text text-grey-light fontSizeAndWeight">support@gmail.com</p>
+                                            <span class="rounded-3 bg-danger p-2 text-white mt-2 livebtn">LIVE</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item ">
+                                <div class="card bg-white border-0 shadow-xss pb-4">
+                                    <div class="card-body imgCard "
+                                        style="background-image: url('./assets/images/bb-16.png');"></div>
+                                    <div class="card-body descCard ">
+                                        <div class="desc text-center">
+                                            <img src="assets/images/user-7.png" alt="small image card"
+                                                class="smallImgCard  bg-white p-1 rounded-circle">
+                                            <h4 class="card-title mb-2 mt-1">Aliqa Macale </h4>
+                                            <p class="card-text text-grey-light fontSizeAndWeight">support@gmail.com</p>
+                                            <span class="rounded-3 bg-danger p-2 text-white mt-2 livebtn">LIVE</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item ">
+                                <div class="card bg-white border-0 shadow-xss pb-4">
+                                    <div class="card-body imgCard "
+                                        style="background-image: url('./assets/images/coming-soon.png');"></div>
+                                    <div class="card-body descCard ">
+                                        <div class="desc text-center">
+                                            <img src="assets/images/user-5.png" alt="small image card"
+                                                class="smallImgCard  bg-white p-1 rounded-circle">
+                                            <h4 class="card-title mb-2 mt-1">Aliqa Macale </h4>
+                                            <p class="card-text text-grey-light fontSizeAndWeight">support@gmail.com</p>
+                                            <span class="rounded-3 bg-danger p-2 text-white mt-2 livebtn">LIVE</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item ">
+                                <div class="card bg-white border-0 shadow-xss pb-4">
+                                    <div class="card-body imgCard "
+                                        style="background-image: url('./assets/images/bb-9.jpg');"></div>
+                                    <div class="card-body descCard ">
+                                        <div class="desc text-center">
+                                            <img src="assets/images/user-6.png" alt="small image card"
+                                                class="smallImgCard  bg-white p-1 rounded-circle">
+                                            <h4 class="card-title mb-2 mt-1">Aliqa Macale </h4>
+                                            <p class="card-text text-grey-light fontSizeAndWeight">support@gmail.com</p>
+                                            <span class="rounded-3 bg-danger p-2 text-white mt-2 livebtn">LIVE</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="thirdPost bg-white pt-4 pb-1 px-4 my-4  ms-4 rounded-4 shadow-xss">
+                        <div class="nameList d-flex align-items-center gap-3">
+                            <img src="assets/images/user-8.png" alt="user image" class="w45">
+                            <h4 class="fontSizeAndWeight text-dark nameUser">Goria Coast<br />
+                                <span class="text-grey-light ">2 hour ago</span>
+                            </h4>
+                            <a href="#" class="ms-auto"><i
+                                    class="fa-solid fa-ellipsis  w45 rounded-pill bg-grey fs-5 text-dark text-center"></i>
+                            </a>
+                        </div>
+
+                        <div class="bodyPost ">
+                            <video src="assets/videos/Sociala - Social Network App HTML Template.mp4" controls
+                                class="w-100 py-3 video "></video>
+                            <p class="fontSizeAndWeight text-grey-light pb-3 me-lg-5 me-0 ">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Morbi
+                                nulla dolor, ornare at commodo non, feugiat non nisi. Phasellus faucibus mollis
+                                pharetra. Proin blandit ac massa sed rhoncus <a href="#" class="ps-2">See more</a></p>
+                        </div>
+
+                        <div class="iconsCreatePost d-flex justify-content-between  align-items-center">
+                            <ul class="list-unstyled d-flex gap-lg-3 gap-xl-5 gap-sm-5 gap-1 align-items-center">
+                                <li>
+                                    <a href="#" class="d-flex gap-1 align-items-center"><i
+                                            class="fa-regular fa-thumbs-up rounded-pill bg-primary-gradiant text-white w25 text-center"></i>
+                                        <i
+                                            class="fa-regular fa-heart rounded-pill bg-red-gradiant text-white w25 text-center"></i>
+                                        <span class="fontSizeAndWeight text-dark">
+                                            2.8K Like</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex align-items-center gap-1"><i
+                                            class="fa-regular fa-comment text-dark fs-5"></i><span
+                                            class="fontSizeAndWeight text-dark ">
+                                            22 Comment</span></a>
+                                </li>
+
+                            </ul>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="d-flex align-items-center gap-2"><i
+                                            class="fa-solid fa-share-nodes text-dark fs-5"></i><span
+                                            class="fontSizeAndWeight text-dark d-none d-md-block ">
+                                            Share</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="fourthPost bg-white pt-4 pb-1 px-4 my-4  ms-4 rounded-4 shadow-xss">
+                        <div class="nameList d-flex align-items-center gap-3">
+                            <img src="assets/images/user-7.png" alt="user image" class="w45">
+                            <h4 class="fontSizeAndWeight text-dark nameUser">Surfiya Zakir<br />
+                                <span class="text-grey-light ">3 hour ago</span>
+                            </h4>
+                            <a href="#" class="ms-auto"><i
+                                    class="fa-solid fa-ellipsis  w45 rounded-pill bg-grey fs-5 text-dark text-center"></i>
+                            </a>
+                        </div>
+
+                        <div class="bodyPost ">
+                            <p class="fontSizeAndWeight text-grey-light pt-3 pb-2 me-lg-5 me-0 ">Lorem ipsum dolor sit
+                                amet,
+                                consectetur adipiscing elit. Morbi
+                                nulla dolor, ornare at commodo non, feugiat non nisi. Phasellus faucibus mollis
+                                pharetra. Proin blandit ac massa sed rhoncus <a href="#" class="ps-2">See more</a></p>
+
+                            <div class="imagePostLightbox pb-4">
+                                <div class="row ">
+                                    <div class="col-6 mb-2">
+                                        <a href="assets/images/t-23.jpg" data-lightbox="roadtrip"><img
+                                                src="assets/images/t-21.jpg" alt="image post"
+                                                class="w-100 rounded-2"></a>
+                                    </div>
+                                    <div class="col-6 mb-2">
+                                        <a href="assets/images/t-32.jpg" data-lightbox="roadtrip"><img
+                                                src="assets/images/t-22.jpg" alt="image post"
+                                                class="w-100 rounded-2"></a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="assets/images/t-33.jpg" data-lightbox="roadtrip"><img
+                                                src="assets/images/t-23.jpg" alt="image post"
+                                                class="w-100 rounded-2"></a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="assets/images/t-34.jpg" data-lightbox="roadtrip"><img
+                                                src="assets/images/t-24.jpg" alt="image post"
+                                                class="w-100 rounded-2"></a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="assets/images/t-21.jpg" data-lightbox="roadtrip"
+                                            class="position-relative d-inline-block"><img src="assets/images/t-25.jpg"
+                                                alt="image post" class="w-100 rounded-2 img-fluid ">
+                                            <div class="imageOverlay rounded-2">
+                                                +2
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="iconsCreatePost d-flex justify-content-between  align-items-center">
+                            <ul class="list-unstyled d-flex gap-lg-3 gap-xl-5 gap-sm-5 gap-1 align-items-center">
+                                <li>
+                                    <a href="#" class="d-flex gap-1 align-items-center"><i
+                                            class="fa-regular fa-thumbs-up rounded-pill bg-primary-gradiant text-white w25 text-center"></i>
+                                        <i
+                                            class="fa-regular fa-heart rounded-pill bg-red-gradiant text-white w25 text-center"></i>
+                                        <span class="fontSizeAndWeight text-dark">
+                                            2.8K Like</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex align-items-center gap-1"><i
+                                            class="fa-regular fa-comment text-dark fs-5"></i><span
+                                            class="fontSizeAndWeight text-dark ">
+                                            22 Comment</span></a>
+                                </li>
+
+                            </ul>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="d-flex align-items-center gap-2"><i
+                                            class="fa-solid fa-share-nodes text-dark fs-5"></i><span
+                                            class="fontSizeAndWeight text-dark d-none d-md-block ">
+                                            Share</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="fifthPost bg-white pt-4 pb-1 px-4 my-4  ms-4 rounded-4 shadow-xss">
+                        <div class="nameList d-flex align-items-center gap-3">
+                            <img src="assets/images/user-8.png" alt="user image" class="w45">
+                            <h4 class="fontSizeAndWeight text-dark nameUser">Goria Coast<br />
+                                <span class="text-grey-light ">2 hour ago</span>
+                            </h4>
+                            <a href="#" class="ms-auto"><i
+                                    class="fa-solid fa-ellipsis  w45 rounded-pill bg-grey fs-5 text-dark text-center"></i>
+                            </a>
+                        </div>
+
+                        <div class="bodyPost ">
+                            <video src="assets/videos/Sociala - Social Network App HTML Template2.mp4" controls
+                                class="w-100 py-3 video "></video>
+                            <p class="fontSizeAndWeight text-grey-light pb-3 me-lg-5 me-0 ">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Morbi
+                                nulla dolor, ornare at commodo non, feugiat non nisi. Phasellus faucibus mollis
+                                pharetra. Proin blandit ac massa sed rhoncus <a href="#" class="ps-2">See more</a></p>
+                        </div>
+
+                        <div class="iconsCreatePost d-flex justify-content-between  align-items-center">
+                            <ul class="list-unstyled d-flex gap-lg-3 gap-xl-5 gap-sm-5 gap-1 align-items-center">
+                                <li>
+                                    <a href="#" class="d-flex gap-1 align-items-center"><i
+                                            class="fa-regular fa-thumbs-up rounded-pill bg-primary-gradiant text-white w25 text-center"></i>
+                                        <i
+                                            class="fa-regular fa-heart rounded-pill bg-red-gradiant text-white w25 text-center"></i>
+                                        <span class="fontSizeAndWeight text-dark">
+                                            2.8K Like</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex align-items-center gap-1"><i
+                                            class="fa-regular fa-comment text-dark fs-5"></i><span
+                                            class="fontSizeAndWeight text-dark ">
+                                            22 Comment</span></a>
+                                </li>
+
+                            </ul>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="d-flex align-items-center gap-2"><i
+                                            class="fa-solid fa-share-nodes text-dark fs-5"></i><span
+                                            class="fontSizeAndWeight text-dark d-none d-md-block ">
+                                            Share</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="fifthPost bg-white pt-4 pb-1 px-4 my-4  ms-4 rounded-4 shadow-xss">
+                        <div class="nameList d-flex align-items-center gap-3">
+                            <img src="assets/images/user-8.png" alt="user image" class="w45">
+                            <h4 class="fontSizeAndWeight text-dark nameUser">Goria Coast<br />
+                                <span class="text-grey-light ">2 hour ago</span>
+                            </h4>
+                            <a href="#" class="ms-auto"><i
+                                    class="fa-solid fa-ellipsis  w45 rounded-pill bg-grey fs-5 text-dark text-center"></i>
+                            </a>
+                        </div>
+
+                        <div class="bodyPost ">
+                            <p class="fontSizeAndWeight text-grey-light pb-3 me-lg-5 me-0 ">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Morbi
+                                nulla dolor, ornare at commodo non, feugiat non nisi. Phasellus faucibus mollis
+                                pharetra. Proin blandit ac massa sed rhoncus <a href="#" class="ps-2">See more</a></p>
+                            <img src="assets/images/t-31.jpg" alt="image footer" class="w-100 py-3 lastImage ">
+                        </div>
+
+                        <div class="iconsCreatePost d-flex justify-content-between  align-items-center">
+                            <ul class="list-unstyled d-flex gap-lg-3 gap-xl-5 gap-sm-5 gap-1 align-items-center">
+                                <li>
+                                    <a href="#" class="d-flex gap-1 align-items-center"><i
+                                            class="fa-regular fa-thumbs-up rounded-pill bg-primary-gradiant text-white w25 text-center"></i>
+                                        <i
+                                            class="fa-regular fa-heart rounded-pill bg-red-gradiant text-white w25 text-center"></i>
+                                        <span class="fontSizeAndWeight text-dark">
+                                            2.8K Like</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex align-items-center gap-1"><i
+                                            class="fa-regular fa-comment text-dark fs-5"></i><span
+                                            class="fontSizeAndWeight text-dark ">
+                                            22 Comment</span></a>
+                                </li>
+
+                            </ul>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="d-flex align-items-center gap-2"><i
+                                            class="fa-solid fa-share-nodes text-dark fs-5"></i><span
+                                            class="fontSizeAndWeight text-dark d-none d-md-block ">
+                                            Share</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer ms-4">
+                        <div class="loading w-100 bg-white shadow-xss py-4 rounded-4">
+                            <div class="dots"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="rightSide  col-xl-4 col-lg-5 col-12 ps-0 pe-4 my-3">
+                    <div class="firstList py-4 bg-white rounded-4 shadow-xss">
+                        <div class="titleList d-flex justify-content-between px-4 border-bottom  pb-3">
+                            <h4 class="fontSizeAndWeight text-dark">Friend Request</h4>
+                            <a href="#" class="fontSizeAndWeight ">See all</a>
+                        </div>
+                        <div class="friendList ">
+                            <ul class="list-unstyled px-4 pt-4 ">
+                                <li class="pb-4">
+                                    <div class="nameList d-flex align-items-center gap-3">
+                                        <img src="assets/images/user-7.png" alt="user image" class="w45">
+                                        <h4 class="fontSizeAndWeight text-dark ">Anthony Daugloi<br />
+                                            <span class="text-grey-light">12 mutualfriends</span>
+                                        </h4>
+                                    </div>
+                                    <div class="btn-friendList pt-3">
+                                        <a href="#"
+                                            class="text-white fontSizeAndWeight bg-primary-gradiant py-2  rounded-5 px-4">Confirm</a>
+                                        <a href="#"
+                                            class="text-dark fontSizeAndWeight bg-grey rounded-4 py-2 px-4 ">Delete</a>
+                                    </div>
+                                </li>
+                                <li class="pb-4">
+                                    <div class="nameList d-flex align-items-center gap-3">
+                                        <img src="assets/images/user-8.png" alt="user image" class="w45">
+                                        <h4 class="fontSizeAndWeight text-dark ">Mohannad Zitoun<br />
+                                            <span class="text-grey-light">12 mutualfriends</span>
+                                        </h4>
+                                    </div>
+                                    <div class="btn-friendList pt-3">
+                                        <a href="#"
+                                            class="text-white fontSizeAndWeight bg-primary-gradiant py-2  rounded-5 px-4">Confirm</a>
+                                        <a href="#"
+                                            class="text-dark fontSizeAndWeight bg-grey rounded-4 py-2 px-4 ">Delete</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="nameList d-flex align-items-center gap-3">
+                                        <img src="assets/images/user-6.png" alt="user image" class="w45">
+                                        <h4 class="fontSizeAndWeight text-dark ">Mohannad Zitoun<br />
+                                            <span class="text-grey-light">12 mutualfriends</span>
+                                        </h4>
+                                    </div>
+                                    <div class="btn-friendList pt-3">
+                                        <a href="#"
+                                            class="text-white fontSizeAndWeight bg-primary-gradiant py-2  rounded-5 px-4">Confirm</a>
+                                        <a href="#"
+                                            class="text-dark fontSizeAndWeight bg-grey rounded-4 py-2 px-4 ">Delete</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="secondList py-4 bg-white my-3 rounded-4 shadow-xss">
+                        <div class="titleList d-flex justify-content-between px-4 ">
+                            <h4 class="fontSizeAndWeight text-dark">Confirm Friend</h4>
+                            <a href="#" class="fontSizeAndWeight ">See all</a>
+                        </div>
+                        <div class="friendList ">
+                            <ul class="list-unstyled px-4 mb-0 ">
+                                <li class="py-3 px-3 bg-greylight  rounded-3 my-3">
+                                    <div class="nameList d-flex align-items-center gap-3">
+                                        <img src="assets/images/user-7.png" alt="user image" class="w45">
+                                        <h4 class="fontSizeAndWeight text-dark mb-0 ">Anthony Daugloi<br />
+                                            <span class="text-grey-light">12 mutualfriends</span>
+                                        </h4>
+                                        <i
+                                            class="fa-solid fa-angle-right ms-auto w35 bg-white fontSizeAndWeight rounded-circle d-flex justify-content-center"></i>
+                                    </div>
+                                </li>
+                                <li class="py-3 px-3 bg-greylight  rounded-3 my-3">
+                                    <div class="nameList d-flex align-items-center gap-3">
+                                        <img src="assets/images/user-8.png" alt="user image" class="w45">
+                                        <h4 class="fontSizeAndWeight text-dark mb-0 ">
+                                            David Agfree<br />
+                                            <span class="text-grey-light">12 mutualfriends</span>
+                                        </h4>
+                                        <i
+                                            class="fa-solid fa-plus ms-auto w35 bg-white fontSizeAndWeight rounded-circle d-flex justify-content-center"></i>
+                                    </div>
+                                </li>
+                                <li class="py-3 px-3 bg-greylight  rounded-3 mt-3">
+                                    <div class="nameList d-flex align-items-center gap-3">
+                                        <img src="assets/images/user-6.png" alt="user image" class="w45">
+                                        <h4 class="fontSizeAndWeight text-dark mb-0 ">Hugury Daugloi<br />
+                                            <span class="text-grey-light">12 mutualfriends</span>
+                                        </h4>
+                                        <i
+                                            class="fa-solid fa-plus ms-auto w35 bg-white fontSizeAndWeight rounded-circle d-flex justify-content-center"></i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="thirdList pt-4 pb-3 bg-white my-3 rounded-4 shadow-xss">
+                        <div class="titleList d-flex justify-content-between px-4 border-bottom  pb-3">
+                            <h4 class="fontSizeAndWeight text-dark">Suggest Group</h4>
+                            <a href="#" class="fontSizeAndWeight ">See all</a>
+                        </div>
+                        <div class="imagethirdList py-3 px-3">
+                            <img src="assets/images/e-2.jpg" alt="user image" class="w-100 rounded-3 ">
+                        </div>
+                        <div class="listImage px-3">
+                            <ul class="list-unstyled d-flex align-items-center">
+                                <li class="w20"><a href="#"><img src="assets/images/user-6.png"
+                                            alt="image user suggest group" class="w35"></a></li>
+                                <li class="w20"><a href="#"><img src="assets/images/user-7.png"
+                                            alt="image user suggest group" class="w35"></a></li>
+                                <li class="w20"><a href="#"><img src="assets/images/user-8.png"
+                                            alt="image user suggest group" class="w35"></a></li>
+                                <li class="w20"><a href="#"><img src="assets/images/user-3.png"
+                                            alt="image user suggest group" class="w35"></a></li>
+                                <li class="w20"><a href="#"
+                                        class="d-inline-block w35 rounded-circle bg-greylight text-grey fontSizeAndWeight text-center ">+2</a>
+                                </li>
+                                <li class="ms-4"><a href="#" class=" text-grey-light fontSizeAndWeight">Member apply</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="fourthList pt-4 pb-2 bg-white rounded-4 my-3  shadow-xss">
+                        <div class="titleList d-flex justify-content-between px-4 border-bottom  pb-3">
+                            <h4 class="fontSizeAndWeight text-dark">Suggest Pages</h4>
+                            <a href="#" class="fontSizeAndWeight ">See all</a>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="pt-3 px-3">
+                                <img src="assets/images/bb-16.png" alt="user image" class="w-100 rounded-3 pb-2">
+                                <div class="likePagebtn text-center  bg-grey rounded-pill">
+                                    <a href="#" class="d-inline-block text-dark py-3 "><i
+                                            class="fa-solid fa-arrow-up-right-from-square me-2 "></i>Like
+                                        Page</a>
+                                </div>
+                            </li>
+                            <li class="pt-4 px-3">
+                                <img src="assets/images/bb-9.jpg" alt="user image" class="w-100 rounded-3 pb-2">
+                                <div class="likePagebtn text-center  bg-grey rounded-pill">
+                                    <a href="#" class="d-inline-block text-dark py-3 "><i
+                                            class="fa-solid fa-arrow-up-right-from-square me-2 "></i>Like
+                                        Page</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="fifthList pt-4 pb-1 bg-white rounded-4 shadow-xss">
+                        <div class="titleList d-flex justify-content-between px-4 border-bottom  pb-3">
+                            <h4 class="fontSizeAndWeight text-dark">Event</h4>
+                            <a href="#" class="fontSizeAndWeight ">See all</a>
+                        </div>
+                        <div class="event ">
+                            <ul class="list-unstyled px-4 pt-4 ">
+                                <li class="pb-2">
+                                    <div class="nameList d-flex align-items-center gap-2">
+                                        <h4
+                                            class="d-flex flex-column justify-content-center align-items-center bg-success text-white dateEvent p-3 rounded-4">
+                                            <span>FEB</span>22
+                                        </h4>
+                                        <h4 class="fontSizeAndWeight text-dark nameEvent">Meeting with clients
+                                            <br />
+                                            <span class="text-grey-light descEvent">41 madison ave, floor 24 new work,
+                                                NY
+                                                10010</span>
+                                        </h4>
+                                    </div>
+
+                                </li>
+                                <li class="pb-2">
+                                    <div class="nameList d-flex align-items-center gap-2">
+                                        <h4
+                                            class="d-flex flex-column justify-content-center align-items-center bg-warning text-white dateEvent p-3 rounded-4">
+                                            <span>APR</span>30
+                                        </h4>
+                                        <h4 class="fontSizeAndWeight text-dark nameEvent">Developer Programe
+                                            <br />
+                                            <span class="text-grey-light">41 madison ave, floor 24 new work, NY
+                                                10010</span>
+                                        </h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="nameList d-flex align-items-center gap-2">
+                                        <h4
+                                            class="d-flex flex-column justify-content-center align-items-center bg-primary text-white dateEvent p-3 rounded-4">
+                                            <span>APR</span>23
+                                        </h4>
+                                        <h4 class="fontSizeAndWeight text-dark nameEvent">Aniversary Event
+                                            <br />
+                                            <span class="text-grey-light">41 madison ave, floor 24 new work, NY
+                                                10010</span>
+                                        </h4>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="chat-contact position-fixed bg-white p-2 ps-3 activeChat  ">
+        <div class="listContact bg-white me-2 rounded-4 px-3 py-3 shadow-xss">
+            <div class="firstList ">
+                <div class="titleList pb-3">
+                    <span class="text-grey-light  ">CONTACTS</span>
+                </div>
+                <div class="list">
+                    <ul class="list-unstyled">
+                        <li class="position-relative"><img src="assets/images/user-8.png" class="w35">
+                            <a href="#" class="text-grey nameUserCaht ms-2">Hurin Seary</a>
+                            <span class="bg-primary text-white timeActive rounded-circle fontSizeAndWeight">2</span>
+                        </li>
+                        <li class="position-relative my-3"><img src="assets/images/user-7.png" class="w35">
+                            <a href="#" class="text-grey nameUserCaht ms-2">Victor Exrixon</a>
+                            <span
+                                class=" text-white timeActive rounded-circle fontSizeAndWeight bg-success p-1 mt-2"></span>
+                        </li>
+                        <li class="position-relative my-3"><img src="assets/images/user-6.png" class="w35">
+                            <a href="#" class="text-grey nameUserCaht ms-2">Surfiya Zakir</a>
+                            <span
+                                class=" text-white timeActive rounded-circle fontSizeAndWeight bg-warning p-1 mt-2"></span>
+                        </li>
+                        <li class="position-relative my-3"><img src="assets/images/user-5.png" class="w35">
+                            <a href="#" class="text-grey nameUserCaht ms-2">Goria Coast</a>
+                            <span
+                                class=" text-white timeActive rounded-circle fontSizeAndWeight bg-success p-1 mt-2"></span>
+                        </li>
+                        <li class="position-relative my-3"><img src="assets/images/user-4.png" class="w35">
+                            <a href="#" class="text-grey nameUserCaht ms-2">Hurin Seary</a>
+                            <span class=" text-grey-light timeActive fontSizeAndWeight mt-1 p-0">4.09 pm</span>
+                        </li>
+                        <li class="position-relative my-3"><img src="assets/images/user-3.png" class="w35">
+                            <a href="#" class="text-grey nameUserCaht ms-2">David Goria</a>
+                            <span class=" text-grey-light timeActive fontSizeAndWeight mt-1 p-0">2 days</span>
+                        </li>
+                        <li class="position-relative my-3"><img src="assets/images/user-2.png" class="w35">
+                            <a href="#" class="text-grey nameUserCaht ms-2">Seary Victor</a>
+                            <span
+                                class=" text-white timeActive rounded-circle fontSizeAndWeight bg-success p-1 mt-2"></span>
+                        </li>
+                        <li class="position-relative my-3"><img src="assets/images/user-6.png" class="w35">
+                            <a href="#" class="text-grey nameUserCaht ms-2">Ana Seary</a>
+                            <span
+                                class=" text-white timeActive rounded-circle fontSizeAndWeight bg-success p-1 mt-2"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="secondList my-4">
+                <div class="titleList pb-3">
+                    <span class="text-grey-light  ">GROUPS</span>
+                </div>
+                <div class="list groups">
+                    <ul class="list-unstyled">
+                        <li class="position-relative"><span
+                                class="d-inline-block w35 text-center fw-700 text-white bg-primary-gradiant w35 rounded-circle">UD</span>
+                            <a href="#" class="text-grey nameUserCaht ms-2">Studio Express</a>
+                            <span class=" text-grey-light timeActive fontSizeAndWeight mt-1 p-0">2 min</span>
+                        </li>
+
+                        <li class="position-relative my-3"><span
+                                class="d-inline-block w35 text-center fw-700 text-white bg-gold-gradiant w35 rounded-circle">AR</span>
+                            <a href="#" class="text-grey nameUserCaht ms-2">Armany Design</a>
+                            <span
+                                class=" text-white timeActive rounded-circle fontSizeAndWeight bg-warning p-1 mt-2"></span>
+                        </li>
+
+                        <li class="position-relative my-3"><span
+                                class="d-inline-block w35 text-center fw-700 text-white bg-mini-gradiant w35 rounded-circle">UD</span>
+                            <a href="#" class="text-grey nameUserCaht ms-2">De fabous</a>
+                            <span
+                                class=" text-white timeActive rounded-circle fontSizeAndWeight bg-success p-1 mt-2"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="thirdList ">
+                <div class="titleList pb-3">
+                    <span class="text-grey-light  ">PAGES</span>
+                </div>
+                <div class="list groups">
+                    <ul class="list-unstyled">
+                        <li class="position-relative "><span
+                                class="d-inline-block w35 text-center fw-700 text-white bg-primary-gradiant w35 rounded-circle">AB</span>
+                            <a href="#" class="text-grey nameUserCaht ms-2">Armany Seary</a>
+                            <span
+                                class=" text-white timeActive rounded-circle fontSizeAndWeight bg-success p-1 mt-2"></span>
+                        </li>
+
+                        <li class="position-relative my-3"><span
+                                class="d-inline-block w35 text-center fw-700 text-white bg-gold-gradiant w35 rounded-circle">SD</span>
+                            <a href="#" class="text-grey nameUserCaht ms-2">Entropio Inc</a>
+                            <span
+                                class=" text-white timeActive rounded-circle fontSizeAndWeight bg-success p-1 mt-2"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="settingCard w300 p-4  bg-white shadow-xss position-fixed rounded-3"
+        style="top: 80px; right: 80px;z-index: 99999999999999;">
+        <h4 class="settingTitle">Settings</h4>
+        <h6 class="text-grey-light chooseColor">Choose Color Theme</h6>
+        <ul class="list-unstyled listColor d-flex gap-2 flex-wrap">
+            <li class="w35 color rounded-circle d-inline-block "><i
+                    class="fa-solid fa-check text-center w-100 text-white "></i></li>
+            <li class="w35 color rounded-circle d-inline-block"><i
+                    class="fa-solid fa-check text-center w-100 text-white "></i></li>
+            <li class="w35 color rounded-circle d-inline-block"><i
+                    class="fa-solid fa-check text-center w-100 text-white "></i></li>
+            <li class="w35 color rounded-circle d-inline-block"><i
+                    class="fa-solid fa-check text-center w-100 text-white "></i></li>
+            <li class="w35 color rounded-circle d-inline-block"><i
+                    class="fa-solid fa-check text-center w-100 text-white "></i></li>
+            <li class="w35 color rounded-circle d-inline-block"><i
+                    class="fa-solid fa-check text-center w-100 text-white "></i></li>
+            <li class="w35 color rounded-circle d-inline-block"><i
+                    class="fa-solid fa-check text-center w-100 text-white "></i></li>
+            <li class="w35 color rounded-circle d-inline-block"><i
+                    class="fa-solid fa-check text-center w-100 text-white "></i></li>
+            <li class="w35 color rounded-circle d-inline-block"><i
+                    class="fa-solid fa-check text-center w-100 text-white "></i></li>
+            <li class="w35 color rounded-circle d-inline-block"><i
+                    class="fa-solid fa-check text-center w-100 text-white "></i></li>
+            <li class="w35 color rounded-circle d-inline-block"><i
+                    class="fa-solid fa-check text-center w-100 text-white "></i></li>
+            <li class="w35 color rounded-circle d-inline-block"><i
+                    class="fa-solid fa-check text-center w-100 text-white "></i></li>
+        </ul>
+        <div class="cardSetting d-flex justify-content-between align-items-center ">
+            <h4 class="headerBg m-0">Header Background</h4>
+            <span class=" rounded-pill px-4  border-0 position-relative bigButton">
+                <button type="button" class="btn btn1 " id="btn1"></button>
+            </span>
+        </div>
+        <div class="cardSetting2  d-flex justify-content-between align-items-center mt-3">
+            <h4 class="headerBg m-0">Dark Mode</h4>
+            <span class=" rounded-pill px-4  border-0 position-relative bigButton">
+                <button type="button" class=" btn2 " id="btn2"></button>
+            </span>
+        </div>
+    </div>
+    <!-- end home -->
+
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- jquery -->
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+
+    <!-- lightbox -->
+    <script src="assets/js/lightbox.min.js"></script>
+
+    <!-- owl carousel -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <!-- main.js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

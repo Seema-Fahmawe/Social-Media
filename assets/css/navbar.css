@@ -1,0 +1,98 @@
+.sociala {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+}
+
+.navbarIndex {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .03) !important;
+}
+
+.searchIcon ,.inputs{
+    position: absolute;
+    left: 15px;
+    color: #ced4da;
+}
+
+.searchInput {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+.navbarIcon {
+    line-height: 50px;
+}
+
+.navbar .centerIcon .nav-item .nav-link.active {
+    background-color: #d2e3ff;
+}
+
+.note {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background-color: red;
+    top: 10px;
+    border-radius: 50%;
+    right: 10px;
+}
+
+.navbar .setting {
+    animation: rotateSettings 4s 0.1s infinite linear;
+}
+
+@keyframes rotateSettings {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.navbar .navbar-collapse {
+    flex-basis: 0%;
+}
+
+.navbar .offcanva-btn::after,
+.navbar .offcanva-btn::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    background-color: #000;
+    right: 0;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.navbar .offcanva-btn::after {
+    width: 25px;
+    top: 20px;
+}
+
+.navbar .offcanva-btn::before {
+    width: 35px;
+    top: 8px;
+}
+
+.navbar .offcanva-btn.active::before {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.navbar .offcanva-btn.active::after {
+    transform: translateY(-8px) rotate(-45deg);
+    width: 35px;
+    top: 24px;
+}
+
+/* media */
+@media(max-width:1199px) {
+    .navbar .firstList {
+        display: none !important;
+    }
+}

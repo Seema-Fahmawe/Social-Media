@@ -1,0 +1,333 @@
+.offcanva .list .titleIcon {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.navbarIndex {
+    background-color: #fff;
+}
+
+.offcanva .secondList .emailNum {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.offcanva a span:hover {
+    color: #0055FF !important;
+    transition: 0.5s;
+}
+
+.sidebar {
+    width: 280px !important;
+    height: 85vh;
+    overflow-y: auto;
+    z-index: 99999999999;
+}
+
+.mainContent {
+    padding-left: 300px;
+    padding-right: 40px;
+}
+
+.stories .owl-item .card-body .imgSmallStory {
+    width: 45px;
+    height: 45px;
+}
+
+.mainContent .stories .imgStory {
+    height: 200px !important;
+}
+
+.stories .owl-stage {
+    left: -48px;
+}
+
+.sidebar::-webkit-scrollbar,
+.chat-contact::-webkit-scrollbar {
+    width: 2px;
+    /* width of the entire scrollbar */
+}
+
+
+.sidebar::-webkit-scrollbar-thumb,
+.chat-contact::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    border: 3px solid #888;
+    /* creates padding around scroll thumb */
+}
+
+.mainContent .rightSide .friendList h4 {
+    line-height: 1.5;
+}
+
+.textCreatePost .imgCreatePost {
+    top: 10px;
+    left: 10px;
+}
+
+.mainContent .textCreatePost textarea:focus {
+    border-color: #dee2e6;
+}
+
+.nameUser {
+    line-height: 1.7 !important;
+}
+
+.mainContent .bodyPost p {
+    line-height: 26px;
+}
+
+.mainContent .bodyPost .imagePostLightbox .imageOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+
+.mainContent .bodyPost .imagePostLightbox .row {
+    --bs-gutter-x: 0.5rem !important;
+}
+
+.mainContent .card {
+    border-radius: 15px !important;
+}
+
+.mainContent .liveCarousel .card-body.imgCard {
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.mainContent .card-body .desc {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -4.2rem;
+}
+
+.smallImgCard {
+    width: 75px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.liveCarousel .card-title {
+    color: #111111;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.liveCarousel .card-text,
+.liveCarousel .livebtn {
+    font-size: 10px;
+}
+
+.liveCarousel .livebtn {
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+
+.mainContent .video,
+.lastImage {
+    border-radius: 1.15rem;
+}
+
+.fourthList .likePagebtn a {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+/* loading */
+.dots {
+    width: 20px;
+    height: 26.9px;
+    background: radial-gradient(circle closest-side, #474bff 90%, #0000) 0% 50%,
+        radial-gradient(circle closest-side, #474bff 90%, #0000) 50% 50%,
+        radial-gradient(circle closest-side, #474bff 90%, #0000) 100% 50%;
+    background-size: calc(100%/3) 13.4px;
+    background-repeat: no-repeat;
+    animation: dots-7ar3yq 1s infinite linear;
+}
+
+.dateEvent {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.dateEvent span {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.nameEvent {
+    line-height: 1.4;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descEvent {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+/* chat-contact */
+.chat-contact {
+    right: 0px;
+    width: 22%;
+    height: 89vh;
+    overflow-y: scroll;
+    transition: 0.5s;
+}
+
+.nameUserCaht {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.chat-contact.activeChat {
+    right: -22%;
+}
+
+.chat-contact .timeActive {
+    padding: 1px 8px;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.chat-contact .groups {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.chat-contact .titleList span {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* setting */
+.settingTitle {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.chooseColor,
+.headerBg {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.cardSetting span,
+.cardSetting2 span {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    background-color: #eee;
+}
+
+.cardSetting .btn1,
+.cardSetting2 .btn2 {
+    position: absolute;
+    border: 0;
+    border-radius: 50%;
+    left: 0;
+    top: 2px;
+    padding: 0.6rem;
+    background-color: #fff !important;
+}
+
+.cardSetting .btnActive{
+    position: absolute;
+    border: 0;
+    border-radius: 50%;
+    right: 0 !important;
+    left: auto;
+    top: 2px;
+    padding: 0.6rem;
+    background-color: #fff !important;
+}
+
+.cardSetting2 .btnActive2{
+    position: absolute;
+    border: 0;
+    border-radius: 50%;
+    right: 0 !important;
+    left: auto;
+    top: 2px;
+    padding: 0.6rem;
+    background-color: #fff !important;
+}
+
+@keyframes dots-7ar3yq {
+    20% {
+        background-position: 0% 0%, 50% 50%, 100% 50%;
+    }
+
+    40% {
+        background-position: 0% 100%, 50% 0%, 100% 50%;
+    }
+
+    60% {
+        background-position: 0% 50%, 50% 100%, 100% 0%;
+    }
+
+    80% {
+        background-position: 0% 50%, 50% 50%, 100% 100%;
+    }
+}
+
+@media (max-width:1200px) {
+    .stories .owl-stage {
+        left: 0;
+        padding-left: 0 !important;
+    }
+
+    .mainContent .leftSide {
+        padding-left: 0 !important;
+    }
+
+    .createPost,
+    .firstPost,
+    .SecondPost,
+    .live,
+    .thirdPost,
+    .fourthPost,
+    .fifthPost,
+    .footer {
+        margin-left: 0 !important;
+    }
+
+    .mainContent .leftSide.col-7 {
+        width: 62%;
+    }
+
+    .mainContent .rightSide.col-5 {
+        width: 38%;
+    }
+}
+
+@media (max-width:991px) {
+    .mainContent {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
